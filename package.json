@@ -9,7 +9,8 @@
   "author": "weathare",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint *.js"
+    "lint": "eslint *.js ./**/*,js",
+    "lint_fix": "eslint --fix *.js ./**/*,js"
   },
   "devDependencies": {
     "eslint": "^4.5.0"
